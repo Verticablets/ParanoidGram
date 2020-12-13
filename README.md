@@ -1,21 +1,20 @@
-# ParanoidGram
+#ParanoidGram
 A customizable dark Instagram theme with a few animations and effects.
 Right click is enabled in posts and stories.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)
 
-#+HTML: <img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/ParanoidGramPrev.png" width="100%"/>
+##<img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/ParanoidGramPrev.png" width="100%"/>
 
 /v2.0.0/
 
-#+HTML: </div>
+#Installation
 
-** Installation
-You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on the install link below.
+You have to install [https://add0n.com/stylus.html](Stylus) and then click on the install link below.
 
-[[https://gitlab.com/vednoc/dark-instagram/raw/master/instagram.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)
 
-*** Initial configuration
+##Initial configuration
 To customize colors and/or other features, follow these instructions:
   - Open the Stylus extension popup while you're on any page Dark-Instagram is
     active on, or from the Manage page in Stylus. Click on the cogwheel icon and
@@ -27,7 +26,7 @@ To use a background image:
 
 
 
-** License
+##License
 Code released under the [[https://gitlab.com/vednoc/dark-instagram/license][MIT]] license.
 
 
