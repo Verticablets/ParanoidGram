@@ -5,7 +5,7 @@
 A customizable dark theme with a few animations and effects for [[https://instagram.com][Instagram]].
 Right click is enabled in posts and stories.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)]
 
 
 #+HTML: <img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/ParanoidGramPrev.png" width="100%"/>
