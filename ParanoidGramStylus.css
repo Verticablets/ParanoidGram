@@ -540,7 +540,14 @@ a.k8Vux:visited
 /* footer*/
 .pC2e0
 {
-    background: var(--bbg) !important;
+          /*--------------------------BACKGROUND URL-------------------------*/
+      background: url("/*[[https:null]]*/") no-repeat center center fixed;
+      /*--------------------------BACKGROUND URL-------------------------*/
+    background-color: var(--bbg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* msg counter*/
@@ -631,12 +638,13 @@ a.k8Vux.snXeX
 }
 
 /*Icons*/
+span._2dbep.qNELH,
 svg
 {
     fill: var(--main) !important;
     transition: all 0.25s !important;
 }
-
+span._2dbep.qNELH:hover,
 svg:hover
 {
     fill: var(--accent) !important;
@@ -914,6 +922,65 @@ input._2hvTZ.pexuQ.zyHYP{
 .drKGC::after {
     border-color: transparent transparent transparent transparent;
 }
+
+/*online status*/
+.rSxHQ {
+    background: var(--accent);
+    border-color: var(--main);
+    border-radius: 50%;
+}
+/*new message*/
+.Sapc9 {
+    background-color: var(--accent);
+}
+
+
+/*feed ver*/
+.SkY6J:after {
+    content: var(--ver);
+    color: var(--main);
+    background: var(--bg);
+    border-radius: 30px;
+    border: solid 8px;
+    border-color: var(--bg);
+    margin: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+/*footer ver*/
+body footer > div::after {
+    content: var(--ver);
+    color: var(--main);
+    text-align: center;
+    margin-top: 2rem;
+}
+/*Startup background*/
+body[style *= 'background: white'] {
+    background-color: var(--bbg) !important;
+}
+
+/*Loading bar*/
+.BHkOG {
+    height: 3px;
+    background: #8080B3 -webkit-gradient(linear,left top,right top,from(#8080B3),color-stop(#a480b3),color-stop(#b380a5),color-stop(#b3808c),to(#8091b3));
+    background: #8080B3 -webkit-linear-gradient(left,#8080B3,#a480b3,#b380a5,#b3808c,#8091b3);
+    background: #8080B3 linear-gradient(to right,#8080B3,#a480b3,#b380a5,#b3808c,#8091b3);
+    background-size: 500%;
+    -webkit-animation: 2s linear infinite LoadingBarProgress,.5s ease-out LoadingBarEnter;
+    animation: 2s linear infinite LoadingBarProgress,.5s ease-out LoadingBarEnter;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    width: 100%;
+}
+
+/*Line in profile menu logout*/
+.W4P49 {
+    background-color: var(--main);
+    border: 0;
+    height: 1px;
+    margin: 0;
+    width: 100%;
+}
 /*--------------------------------Rclick--------------------------------*/
 /*posts*/
 ._9AhH0
@@ -941,5 +1008,6 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --tags: /*[[#BF5AF2]]*/;
       --hover: /*[[#cfcfe6]]*/;
       --hover2: /*[[#242539]]*/;
+      --ver: '✔ ParanoidGram 2.1.0';
   }
   }
