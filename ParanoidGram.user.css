@@ -814,13 +814,25 @@ a.L3NKy:visited
 }
 
 /*account preview*/
-.DPiy6,
+.DPiy6
+{
+    border-radius: 30px 30px 30px 30px !important;
+    border: 0px !important;
+    background-color: #18192626 !important;
+}
+
+
 .GdeD6
 {
     border-radius: 30px 30px 30px 30px !important;
     border: 0px !important;
-    background-color: rgba(0, 0, 0, .05) !important;
+        -webkit-box-shadow: 0 2px 16px 0 rgba(0,0,0,.2), 0 0 0 2px var(--main);
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,.2), 0 0 0 2px var(--main);
+    background-color: var(--bgt) !important;
+    backdrop-filter: blur(3px) !important;
+    -webkit-backdrop-filter: blur(3px) !important;
 }
+
 
 .Dw_ki
 {
@@ -1031,6 +1043,6 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --hover: hover;
       --hover2: hover2;
       --url: url;
-      --ver: '✔ ParanoidGram 2.0.0';
+      --ver: '✔ ParanoidGram 2.1.0';
   }
  }
