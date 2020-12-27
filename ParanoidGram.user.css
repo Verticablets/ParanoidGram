@@ -18,6 +18,7 @@
 @var color    text2      'secondary text colour' #CCCCCC
 @var color    bbg      'main background colour' #1f2131
 @var color    bg     'secondary background colour' #181926
+@var color    bgt     'transparent background colour' #181926bd
 @var color    mentions     'mentions colour' #7E7CF9
 @var color    tags     'tags colour' #BF5AF2
 @var color    hover     'main hover colour' #cfcfe6
@@ -108,7 +109,7 @@ It's going to be messy since I'm very new at this.
 
 ._01UL2
 {
-    background: #000000bd !important;
+    background: var(--bgt) !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
     border-radius: 0 0 30px 30px !important;
@@ -564,7 +565,14 @@ a.k8Vux:visited
 /* footer*/
 .pC2e0
 {
-    background: var(--bbg) !important;
+          /*--------------------------BACKGROUND URL-------------------------*/
+      background: url(url) no-repeat center center fixed;
+      /*--------------------------BACKGROUND URL-------------------------*/
+    background-color: var(--bbg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* msg counter*/
@@ -948,7 +956,6 @@ input._2hvTZ.pexuQ.zyHYP{
 .Sapc9 {
     background-color: var(--accent);
 }
-
 /*feed ver*/
 .SkY6J:after {
     content: var(--ver);
@@ -995,7 +1002,6 @@ body[style *= 'background: white'] {
     margin: 0;
     width: 100%;
 }
-
 /*--------------------------------Rclick--------------------------------*/
 /*posts*/
 ._9AhH0
@@ -1019,11 +1025,12 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --text2: text2;
       --bg: bg;
       --bbg: bbg;
+      --bgt: bgt;
       --mentions: mentions;
       --tags: tags;
       --hover: hover;
       --hover2: hover2;
       --url: url;
-      --ver: '✔ ParanoidGram 2.1.0';
+      --ver: '✔ ParanoidGram 2.0.0';
   }
  }
