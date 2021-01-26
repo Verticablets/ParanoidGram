@@ -7,7 +7,7 @@ Right click is enabled in posts and stories.
 
 <img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/ParanoidGramPrev.png" width="100%"/>
 
-_v2.1.0_
+_v2.2.0_
 
 
 ### Installation
