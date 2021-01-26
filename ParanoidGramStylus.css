@@ -14,7 +14,7 @@ It's going to be messy since I'm very new at this.
       /*--------------------------BACKGROUND URL-------------------------*/
       background: url("/*[[https:null]]*/") no-repeat center center fixed;
       /*--------------------------BACKGROUND URL-------------------------*/
-    background-color: var(--bbg);
+    background-color: rgba(24, 25, 38, .741);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,12 +79,24 @@ It's going to be messy since I'm very new at this.
     border-radius: 0 0 30px 30px !important;
 }
 
-._01UL2
-{
+/*emoji picker/noti popup*/
+.f7Bj3{
     background: #181926bd !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
-    border-radius: 0 0 30px 30px !important;
+    border-radius: 0px 0px 30px 30px !important;
+}
+
+.uo5MA._2ciX.WNrPq{
+    background: #181926bd !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-radius: 30px 30px 0px 0px !important;
+}
+
+._01UL2 {
+    background: transparent !important;
+    border-radius: 0px 0px 30px 30px !important;
 }
 
 .AvhYw,
@@ -108,7 +120,7 @@ It's going to be messy since I'm very new at this.
 .nHGTw,
 .q9xVd::after
 {
-    background: var(--accent);
+    background: var(--main);
 }
 
 .iMofo
@@ -543,7 +555,7 @@ a.k8Vux:visited
           /*--------------------------BACKGROUND URL-------------------------*/
       background: url("/*[[https:null]]*/") no-repeat center center fixed;
       /*--------------------------BACKGROUND URL-------------------------*/
-    background-color: var(--bbg);
+    background-color: rgba(24, 25, 38, .741);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -859,6 +871,13 @@ a.FPmhX.notranslate.Qj3-a
 
 div.zGtbP.IPQK5.VideM
 {
+    width: 20cm !important;
+    margin-left: -10% !important;
+    
+}
+
+div.zGtbP.IPQK5.VideM
+{
     width: 147% !important;
     right: 20%;
 }
@@ -965,7 +984,7 @@ body footer > div::after {
 }
 /*Startup background*/
 body[style *= 'background: white'] {
-    background-color: var(--bbg) !important;
+    background-color: rgba(24, 25, 38, .741) !important;
 }
 
 /*Loading bar*/
@@ -990,6 +1009,54 @@ body[style *= 'background: white'] {
     margin: 0;
     width: 100%;
 }
+
+/*Loading placeholders*/
+.WidCF, .HaS-3 {
+    border-right: 1px solid rgba(24, 25, 38, .741);
+    background: rgba(24, 25, 38, .741) !important;
+    background-color: rgba(24, 25, 38, .741) !important;
+}
+.pOb2E{
+    border: 1px solid rgba(24, 25, 38, .741);
+    background: rgba(24, 25, 38, .741) !important;
+    background-color: rgba(24, 25, 38, .741) !important;
+}
+._3MPWk, ._8Rm4L, .zMhqu, .KQA-S, ._1MzIy {
+    border-radius: 30px !important;
+    border: 3px solid rgba(24, 25, 38, .741) !important;
+        background: rgba(24, 25, 38, .741) !important;
+    background-color: rgba(24, 25, 38, .741) !important;
+}
+.OzqB_, 
+.u9F97,
+._8VIOK {
+
+    background-color: var(--main) !important;
+}
+._7JZQt {
+    background: var(--main) !important;
+}
+
+/*add a comment colour fix*/
+textarea.Ypffh {
+    color: var(--accent) !important;
+    border: 3px solid #8080b342;
+        background: #8080b342 !important;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    /*arrows*/
+    .coreSpriteRightChevron,
+    .coreSpriteLeftChevron {
+    filter: invert(1%) opacity(100%) drop-shadow(0px 0px 0px #00f);
+}
+    .glyphsSpriteChevron_circle_shadow_left, 
+    .glyphsSpriteChevron_circle_shadow_right {
+    filter: invert(1%) opacity(50%) drop-shadow(0px 0px 0px #00f);
+}
+
 /*--------------------------------Rclick--------------------------------*/
 /*posts*/
 ._9AhH0
@@ -1014,9 +1081,9 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --bg: /*[[#181926]]*/;
       --bbg: /*[[#1f2131]]*/;
       --mentions: /*[[#7E7CF9]]*/;
-      --tags: /*[[#BF5AF2]]*/;
+      --tags: /*[[#cdb6e3]]*/;
       --hover: /*[[#cfcfe6]]*/;
       --hover2: /*[[#242539]]*/;
-      --ver: '✔ ParanoidGram 2.1.0';
+      --ver: '✔ ParanoidGram 2.2.0';
   }
   }

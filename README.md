@@ -18,7 +18,7 @@ You have to install [Stylus](https://add0n.com/stylus.html) and then click on th
 
 #### Initial configuration
 To customize colors and/or other features, follow these instructions:
-  - Open the Stylus extension popup while you're on any page Dark-Instagram is
+  - Open the Stylus extension popup while you're on any page ParanoidGram is
     active on, or from the Manage page in Stylus. Click on the cogwheel icon and
     that'll open up a menu from which you can customize the available options.
 

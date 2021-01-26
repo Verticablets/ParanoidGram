@@ -1,3 +1,12 @@
+#2.2.0
+
+- New tag/mention colour.
+- Fixed emoji picker shape.
+- Dark loading placeholders.
+- Recoloured some elements.
+- A more visible text input for comments.
+- Coloured arrows for posts/stories.
+
 #2.1.0
 
 - New online status.

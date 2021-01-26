@@ -1,14 +1,13 @@
 /* ==UserStyle==
 @name           ParanoidGram
 @namespace      Verticablets
-@version        2.1.0
+@version        2.2.0
 @description    A customizable dark Instagram theme with a few animations and effects.
 @author         Verticablets (https://linktr.ee/verticablets)
 @homepageURL  	https://github.com/Verticablets/ParanoidGram
 @supportURL	https://github.com/Verticablets/ParanoidGram/issues
 @license	MIT
 @preprocessor stylus
-@license      MIT
 
 @var color    main      'main colour' #8080B3
 @var color    accent      'accent colour' #CCCCE0
@@ -101,18 +100,27 @@ It's going to be messy since I'm very new at this.
 /*account popup menu*/
 .uo5MA
 {
-    background: #0000 !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    border-radius: 0 0 30px 30px !important;
+    background: #fff0!important;
 }
 
-._01UL2
-{
+/*emoji picker/noti popup*/
+.f7Bj3{
+    background: transparent !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-radius: 0px 0px 30px 30px !important;
+}
+
+.uo5MA._2ciX.WNrPq{
     background: var(--bgt) !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
-    border-radius: 0 0 30px 30px !important;
+    border-radius: 30px 30px 0px 0px !important;
+}
+
+._01UL2 {
+    background: var(--bgt) !important;
+    border-radius: 0px 0px 30px 30px !important;
 }
 
 .AvhYw,
@@ -136,7 +144,7 @@ It's going to be messy since I'm very new at this.
 .nHGTw,
 .q9xVd::after
 {
-    background: var(--accent);
+    background: var(--main);
 }
 
 .iMofo
@@ -146,7 +154,7 @@ It's going to be messy since I'm very new at this.
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 260px;
+    width: 100%;
 }
 
 
@@ -885,8 +893,9 @@ a.FPmhX.notranslate.Qj3-a
 
 div.zGtbP.IPQK5.VideM
 {
-    width: 147% !important;
-    right: 20%;
+    width: 20cm !important;
+    margin-left: -10% !important;
+    
 }
 
 /*change account login*/
@@ -933,7 +942,7 @@ input._2hvTZ.pexuQ.zyHYP{
 
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #c8052700 !important;
+  color: #fff0 !important;
 }
 
  /* Search results*/
@@ -1014,6 +1023,59 @@ body[style *= 'background: white'] {
     margin: 0;
     width: 100%;
 }
+
+/*Loading placeholders*/
+.WidCF, .HaS-3 {
+    border-right: 1px solid var(--bbg);
+    background: var(--bbg) !important;
+    background-color: var(--bbg) !important;
+}
+.pOb2E{
+    border: 1px solid var(--bbg);
+    background: var(--bbg) !important;
+    background-color: var(--bbg) !important;
+}
+._3MPWk, ._8Rm4L, .zMhqu, .KQA-S, ._1MzIy {
+    border-radius: 30px !important;
+    border: 3px solid var(--bbg) !important;
+        background: var(--bbg) !important;
+    background-color: var(--bbg) !important;
+}
+.OzqB_, 
+.u9F97,
+._8VIOK {
+
+    background-color: var(--main) !important;
+}
+._7JZQt {
+    background: var(--main) !important;
+}
+
+/*add a comment colour fix*/
+textarea.Ypffh {
+    color: var(--accent) !important;
+    border: 3px solid #8080b342;
+        background: #8080b342 !important;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    /*arrows*/
+    .coreSpriteRightChevron,
+    .coreSpriteLeftChevron,{
+    filter: invert(1%) opacity(100%) drop-shadow(0px 0px 0px #00f);
+}
+    .glyphsSpriteChevron_circle_shadow_left, 
+    .glyphsSpriteChevron_circle_shadow_right,{
+    filter: invert(1%) opacity(50%) drop-shadow(0px 0px 0px #00f);
+}
+
+
+
+
+
+
 /*--------------------------------Rclick--------------------------------*/
 /*posts*/
 ._9AhH0
@@ -1043,6 +1105,6 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --hover: hover;
       --hover2: hover2;
       --url: url;
-      --ver: '✔ ParanoidGram 2.1.0';
+      --ver: '✔ ParanoidGram 2.2.0';
   }
  }
