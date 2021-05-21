@@ -14,7 +14,7 @@ It's going to be messy since I'm very new at this.
       /*--------------------------BACKGROUND URL-------------------------*/
       background: url("/*[[https:null]]*/") no-repeat center center fixed;
       /*--------------------------BACKGROUND URL-------------------------*/
-    background-color: rgba(24, 25, 38, .741);
+    background-color: #1f2131;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,10 +73,7 @@ It's going to be messy since I'm very new at this.
 /*account popup menu*/
 .uo5MA
 {
-    background: #0000 !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    border-radius: 0 0 30px 30px !important;
+    background: #fff0!important;
 }
 
 /*emoji picker/noti popup*/
@@ -93,9 +90,9 @@ It's going to be messy since I'm very new at this.
     -webkit-backdrop-filter: blur(10px) !important;
     border-radius: 30px 30px 0px 0px !important;
 }
-
+/*emoji picker bg and acc popup*/
 ._01UL2 {
-    background: transparent !important;
+    background: #181926bd !important;
     border-radius: 0px 0px 30px 30px !important;
 }
 
@@ -130,9 +127,7 @@ It's going to be messy since I'm very new at this.
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: 260px;
+    width: 100%;
 }
 
 
@@ -154,8 +149,16 @@ It's going to be messy since I'm very new at this.
     border-radius: 30px 30px 30px 30px !important;
     background: var(--bg);
     border: 0;
-    width: 104%;
+    width: 104% !important;
     padding: 16px 10px;
+}
+.Fd_fQ {
+    height: 2px !important;
+    padding: 1px 4px;
+    top: 0px;
+}
+.eebAO.h_uhZ{
+    color: var(--accent) !important;
 }
 
 /*---------------------------------recommended for you------------------------- */
@@ -178,10 +181,9 @@ It's going to be messy since I'm very new at this.
 }
 
 /* also acc popup, suggested follow n post text bg*/
-.HVWg4,
-.pjcA_
+.HVWg4
 {
-    background: #fff0 !important;
+    background: transparent !important;
     border-radius: 30px 30px 30px 30px !important;
 }
 
@@ -222,7 +224,6 @@ It's going to be messy since I'm very new at this.
 .FGFB7
 {
     filter: invert(100) drop-shadow(3px 3px 20px #fff);
-    ;
     opacity: 0.7;
 }
 
@@ -415,9 +416,12 @@ a.k8Vux:visited
 /*following bg*/
 .-fzfL
 {
-    background: var(--main);
-    border-color: var(--main);
+    background: var(--main) !important;
+    border-color: var(--main) !important;
     color: var(--main);
+}
+.m4t9r.-fzfL {
+    opacity: 1 !important;
 }
 
 .mt3GC:only-child
@@ -599,8 +603,7 @@ textarea,
 .eebAO,
 ._81NM2,
 ._4BSuu,
-.M9sTE,
-.eXle2
+.M9sTE
 {
     color: var(--text) !important;
 }
@@ -698,6 +701,7 @@ a.L3NKy:visited
 }
 
 /*button hover*/
+.y3zKF[disabled]:not(.yWX7d):not(.A086a), a.y3zKF[disabled]:not(.yWX7d):not(.A086a), a.y3zKF[disabled]:not(.yWX7d):not(.A086a):visited,
 .jIbKX,
 .L3NKy,
 .-fzfL
@@ -882,7 +886,7 @@ div.zGtbP.IPQK5.VideM
 .gr27e {
     border-radius: 30px 30px 30px 30px !important;
     border: 0px !important;
-    background-color: var(--main)!important;
+    background-color: var(--bg) !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
 }
@@ -892,7 +896,13 @@ input._2hvTZ.pexuQ.zyHYP{
     background-color: var(--bg)!important;
     border:0;
 }
-
+.l9hKg{
+    color: var(--main) !important;
+  }
+  
+  .izU2O{
+    color: var(--text3) !important;
+  }
 
 /*login screen*/
 
@@ -921,7 +931,7 @@ input._2hvTZ.pexuQ.zyHYP{
 
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #c8052700 !important;
+    color: #fff0 !important;
 }
 
  /* Search results*/
@@ -1043,6 +1053,10 @@ textarea.Ypffh {
     
     
     /*arrows*/
+    .glyphsSpriteDirect__outline__96, .glyphsSpriteDownload_2FAC, .coreSpritePagingChevron{
+        filter: invert(1) opacity(100%) drop-shadow(0px 0px 0px #00f);
+    }
+
     .coreSpriteRightChevron,
     .coreSpriteLeftChevron {
     filter: invert(1%) opacity(100%) drop-shadow(0px 0px 0px #00f);
@@ -1051,6 +1065,81 @@ textarea.Ypffh {
     .glyphsSpriteChevron_circle_shadow_right {
     filter: invert(1%) opacity(50%) drop-shadow(0px 0px 0px #00f);
 }
+    /*3 dot in story*/
+    .glyphsSpriteMore_horizontal__filled__24__grey_0 {
+        filter: invert(1%) opacity(100%) drop-shadow(0px 0px 0px #00f);
+        }
+        
+         /*location in posts*/   
+        a.O4GlU, a.O4GlU:visited {
+        color: var(--accent);
+    }
+    
+         /*brand on profile*/   
+    ._8FvLi, {
+        color: var(--tags);
+    }
+    
+         /*about text and "followes, posts etc" on profile*/   
+    span,
+    .-nal3, .-nal3:active, .-nal3:visited, .-nal3:hover {
+        color: var(--text3);
+    }
+    
+         /*facebook account center on settings*/   
+    .fm1AK  {
+        background: var(--accent) !important;
+    }
+    
+    div.eXle2 {
+        color: var(--text3) !important;
+    }
+         /*new posts*/   
+    .tCibT {
+        color: var(--text3) !important;
+            background: var(--main) !important;
+    }
+    
+    
+    
+         /*more text*/   
+    div._7UhW9.PIoXz.qyrsm.KV-D4.uL8Hv        {
+        color: var(--main) !important;
+    } 
+    
+    div._7UhW9.xLCgt.qyrsm._0PwGv.uL8Hv  {
+        color: var(--main) !important;
+    }     
+    
+    .SkY6J .K5OFK, .SkY6J .l93RR, {
+        color: var(--main) !important;
+        font-size: 11px;
+        font-weight: 500;
+        margin-left: 2px;
+    } 
+    .SkY6J .DINPA  {
+        color: var(--main) !important;
+        font-size: 11px;
+        font-weight: 500;
+        margin-left: 30px;
+    } 
+    
+    label {
+        color: var(--main) !important;
+    } 
+    
+         /*settings paget*/   
+    .EzUlV, .PVkFi{
+    border-radius: 0px 30px 30px 0px!important;
+    border: var(--main) 0px solid;
+    }      
+    .wW1cu{
+    border-right: 1px solid var(--main);
+    }  
+    .BvMHM.EzUlV.XfvCs{
+    border-radius: 30px !important;
+    }  
+    
 
 /*--------------------------------Rclick--------------------------------*/
 /*posts*/
@@ -1073,12 +1162,13 @@ div.Igw0E.rBNOH.YBx95._4EzTm.i0EQd.O1flK.D8xaz.TxciK.yiMZG
       --message2: /*[[#2e2e42]]*/;
       --text: /*[[#fff]]*/;
       --text2: /*[[#CCC]]*/;
+      --text3: /*[[#cdd1fb]]*/;
       --bg: /*[[#181926]]*/;
       --bbg: /*[[#1f2131]]*/;
       --mentions: /*[[#7E7CF9]]*/;
       --tags: /*[[#cdb6e3]]*/;
       --hover: /*[[#cfcfe6]]*/;
       --hover2: /*[[#242539]]*/;
-      --ver: '✔ ParanoidGram 2.2.0';
+      --ver: '✔ ParanoidGram 2.2.1';
   }
   }

@@ -1,3 +1,8 @@
+#2.2.1
+
+- Fixed a few texts and items.
+
+
 #2.2.0
 
 - New tag/mention colour.
