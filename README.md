@@ -5,7 +5,7 @@ Right click is enabled in posts and stories.
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)
 
 
-<img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/ParanoidGramPrev.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/Verticablets/ParanoidGram/main/Preview/paranoidgramprev.jpg" width="100%"/>
 
 _v2.2.1_
 
