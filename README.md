@@ -30,4 +30,4 @@ To use a background image:
 
 ### License
 ----
-MIT
+CC BY - Creative Commons Attribution
