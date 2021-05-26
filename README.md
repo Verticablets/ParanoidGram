@@ -28,6 +28,3 @@ To use a background image:
 
 
 
-### License
-----
-CC BY - Creative Commons Attribution
